@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indhirakumar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Header field-->
+    <header>
+        <h1>Indhirakumar S</h1>
+        <p>Fullstack web Developer | Java developer | DSA problem solver</p>
+        <p>The Nilgiri</p>
+        <p>TamilNadu</p>
+    </header>
+    <hr>
+    <!--Navigation bar-->
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!--main section-->
+    <main>
+        <!--About section-->
+        <section id="about">
+            <h2>About</h2>
+            <img src="images/ik.png" alt="Indhirakumar" style="height: 250px; width: 250px;">
+            <h3>Hello guys i'm <b>Indhirakumar</b>,a <strong>software engineer with strong foundation in programming languages such as <mark>java and python</mark></strong>.I'm a DSA problem solver with solving <mark>100+ DSA problems in leetcode</mark>,and <em>im interested in creating new software solution to solve the real world problems.</em></h3>
+        </section>
+        <hr>
+        <!--skill section-->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java Script</li>
+                    </ul>
+                </li>
+
+                <li>Programming languages
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </li>
+                <li>
+                    Database
+                    <ul>
+                        <li>My SQL</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Data Structures and Algorithm
+                    <ul>
+                        <li>Intermediate in solving DSA</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Tools
+                    <ul>
+                        <li>Git and GitHub</li>
+                        <li>VS code</li>
+                        <li>Eclipse</li>
+                        <li>Intellij</li>
+                        <li>Jupyter Notebook</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+        <hr>
+        <!--Education section-->
+        <section id="education">
+            <h2>Education</h2>
+            <ol>
+                <li>1std to 5th std - PUPS Kesalada</li>
+                <li>6th to 10th - GHS Aravenu</li>
+                <li>11th and 12th - GHSS Kotagiri</li>
+                <li>College UG - Arjun College of Technology(B.tech AI&DS 4th year ongoing)</li>
+            </ol>
+        </section>
+        <!--Time table section-->
+
+        <section>
+            <h2>Weekly time table</h2>
+            <table border="1">
+                <th>Day</th>
+                <th>Period 1</th>
+                <th>Period 2</th>
+                <th>Period 3</th>
+                <th>Period 4</th>
+
+                <tr>
+                    <th>Monday</th>
+                    <td>Java</td>
+                    <td>Aptitude</td>
+                    <td>Soft skill</td>
+                    <td>Gendral Knowlwdge</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td>Gendral Knowlwdge</td>
+                    <td>Java</td>
+                    <td colspan="2">Soft skill</td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td rowspan="2">Java</td>
+                    <td>Aptitude</td>
+                    <td>Soft skill</td>
+                    <td>Gendral Knowlwdge</td>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td>Soft skill</td>
+                    <td>Java</td>
+                    <td>Gendral Knowlwdge</td>
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <td>Softskill</td>
+                    <td>Aptitude</td>
+                    <td colspan="2">AI</td>
+                </tr>
+            </table>
+        </section>
+        <!--Contact section-->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="#name">Your Name</label>
+                <input type="text" id="name" placeholder="eg:Indhirakumar" required minlength="3" maxlength="30">
+                <br>
+                <label for="#email">Your email</label>
+                <input type="email" id="email" placeholder="eg:abcd45@gmail.com" required minlength="3" maxlength="20">
+                <br>
+                <label for="#phone">your mobile Number</label>
+                <input type="tel" id="phone" placeholder="eg:9876758445" minlength="10" maxlength="12">
+                <br>
+                <label for="#DOB">Your DOB</label>
+                <input type="date" id="DOB">
+                <br>
+                <label for="#portfoliourl">Enter your portfolio url</label>
+                <input type="url" id="portfoliourl" placeholder="https:/indhirakumar.io">
+                <br>
+                <label for="#password">Enter your 6 digit PIN code</label>
+                <input type="password" id="password" maxlength="6" placeholder="6 digit pin code">
+                <br>
+                    <label for="gender">Your gender</label>
+                    <label for="male"><input type="radio" name="gender" id="male" >Male</label>
+                    <label for="female"><input type="radio" name="gender" id="female">Female</label>
+                <br>
+                <label for="#state">Your state</label>
+                <select name="" id="state">
+                    <option value="" hidden>Select your State</option>
+                    <option value="tamilnadu">TamilNadu</option>
+                    <option value="tamilnadu">Kerala</option>
+                    <option value="tamilnadu">Andhra</option>
+                    <option value="tamilnadu">Karnataka</option>
+                </select>
+                <br>
+                <label for="resume" for="#resume" name="resume">Your Resume</label>
+                <input type="file" id="resume">
+                <br>
+                <label for="message" for="#message">Your message to me</label>
+                <textarea name="message" id="message" minlength="10"></textarea>
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    <!--Aside area-->
+    <aside>
+        <h3>Fun Facts</h3>
+        <p>I enjoy to play volleyball</p>
+    </aside>
+    <!--Footer area-->
+    <footer>
+        <p>The Nilgiris | 2026</p>
+    </footer>
+</body>
+</html>
