@@ -1,24 +1,161 @@
+
+/* universal selector*/
 *{
-    padding: auto;
+    padding: 0;
     margin: 0;
 }
-
+/* Element selector*/
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(106, 191, 244);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    background-color: #3ec1d8;
 }
-h2{
-    color: rgb(50, 50, 223);
+header{
+    color: black;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 137, 236);
 }
 h1{
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+
+}
+
+/* Desentent selector*/
+header p{
+    font-weight: 500;
+    font-size: 25px;
+}
+nav{
+    align-items: center;
+    text-align:center;
+    position: sticky;
+    top: 0;
+    background-color: beige;
+    color: black;
+}
+nav a{
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10%;
+    border-color: black;
+    column-gap: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 10px;
+    color: hsl(204, 29%, 3%);
+}
+nav :hover{
+    color: aliceblue;
+    background-color: brown;
+}
+
+#about{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(227, 233, 234);
+    height: 100%;
+    margin: 50px;
+}
+#about P{
+    font-size: 40px;
+}
+#about img{
+    border-color: black;
+    border: 10px solid;
+    border-radius: 25%;
+}
+#skills{
+    justify-content: center;
+    font-size: 30px;
+    background-color:rgb(227, 233, 234);
+    height: 100%;
+    margin: 50px;
+}
+/* child selector*/
+ul{
+    padding-left: 40px;
+}
+ul>li{
+    font-weight: 400;
+}
+
+/* id selector*/
+#education{
+    font-size: 30px;
+    padding-bottom: 10px;
+    justify-content: center;
+    background-color:rgb(227, 233, 234);
+    height: 100%;
+    margin: 50px;
+}
+#education ol{
+    padding-left: 40px;
+}
+#timetable{
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    background-color:rgb(227, 233, 234);
+    margin: 50px;
+}
+#contact{
+    width: 100%;
+    background-color:rgb(227, 233, 234);
+    margin: 50px;
+    font-size: 20px;
+}
+#contact label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/*Attribute selector*/
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+aside p{
+    font-size: 20px;
     text-align: center;
 }
-p{
-    background-color: darkgray;
+
+footer{
+    font-size: 30px;
+    text-align: center;
 }
-.navbar{
-    
-}
-#about{
-    border: solid;
-}
+
+/*Display propertys
+ Inline is take only that space and doesnt have any height and width
+block is a content that takes every space in the web page
+inline block used as same as the inline but we put the width and height
+none is used to remove the entiar element*/

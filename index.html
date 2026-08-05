@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indhirakumar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -29,8 +32,8 @@
         <!--About section-->
         <section id="about">
             <h2>About</h2>
-            <img src="images/ik.png" alt="Indhirakumar" style="height: 250px; width: 250px;">
-            <h3>Hello guys i'm <b>Indhirakumar</b>,a <strong>software engineer with strong foundation in programming languages such as <mark>java and python</mark></strong>.I'm a DSA problem solver with solving <mark>100+ DSA problems in leetcode</mark>,and <em>im interested in creating new software solution to solve the real world problems.</em></h3>
+            <img src="images/ik.png" alt="Indhirakumar" height="500px">
+            <P>Hello guys i'm <b>Indhirakumar</b>,a <strong>software engineer with strong foundation in programming languages such as <mark>java and python</mark></strong>.I'm a DSA problem solver with solving <mark>100+ DSA problems in leetcode</mark>,and <em>im interested in creating new software solution to solve the real world problems.</em></P>
         </section>
         <hr>
         <!--skill section-->
@@ -90,10 +93,9 @@
             </ol>
         </section>
         <!--Time table section-->
-
-        <section>
+     <section id="timetable"> <center>
             <h2>Weekly time table</h2>
-            <table border="1">
+            <table border="1" style="border: 10px solid;">
                 <th>Day</th>
                 <th>Period 1</th>
                 <th>Period 2</th>
@@ -133,6 +135,7 @@
                     <td colspan="2">AI</td>
                 </tr>
             </table>
+        </center>
         </section>
         <!--Contact section-->
         <section id="contact">
@@ -160,6 +163,11 @@
                     <label for="male"><input type="radio" name="gender" id="male" >Male</label>
                     <label for="female"><input type="radio" name="gender" id="female">Female</label>
                 <br>
+                <label for="interests">Interests</label>
+                <label for="interests"><input type="checkbox">Designing</label>
+                <label for="interests"><input type="checkbox">Developing</label>
+                <label for="interests"><input type="checkbox">Communication</label>
+                <br>
                 <label for="#state">Your state</label>
                 <select name="" id="state">
                     <option value="" hidden>Select your State</option>
@@ -181,7 +189,7 @@
     </main>
     <!--Aside area-->
     <aside>
-        <h3>Fun Facts</h3>
+        <h2>Fun Facts</h2>
         <p>I enjoy to play volleyball</p>
     </aside>
     <!--Footer area-->
